@@ -3,7 +3,7 @@ apiVersion: "entando.org/v1"
 metadata:
   name: "pda-plugin"
 spec:
-  image: "docker.io/entando/entando-process-driven-plugin:latest"
+  image: "docker.io/entando/entando-process-driven-plugin:6.0.51"
   replicas: 1
   dbms: "none"
   parameters: {}
