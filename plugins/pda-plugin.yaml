@@ -4,6 +4,7 @@ metadata:
   name: "pda-plugin"
 spec:
   image: "docker.io/entando/entando-process-driven-plugin:6.0.51"
+  deploymentBaseName: entando-pda-plugin
   replicas: 1
   dbms: "none"
   parameters: {}
